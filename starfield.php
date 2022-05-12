@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<meta charset="utf-8" />
+
 <body
   style="position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; overflow: hidden; margin: 0; padding: 0;"
 >
