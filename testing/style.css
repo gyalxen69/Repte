@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Oswald:wght@300&family=Roboto+Serif:opsz,wght@8..144,100&family=Shizuru&display=swap');
 
 * {
   margin: 0px;
@@ -23,7 +23,7 @@ body {
 }
 
 .header h2{
-  font-family: 'Abril Fatface';
+  font-family: 'Oswald';
   letter-spacing: 2px;
 }
 
