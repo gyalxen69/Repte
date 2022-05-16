@@ -5,6 +5,7 @@
     <title></title>
   </head>
   <body>
+    <?php include("login.php") ?>
     <?php include("../starfield.php") ?>
   </body>
 </html>
