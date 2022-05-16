@@ -10,6 +10,11 @@
   	unset($_SESSION['username']);
   	header("location: login.php");
   }
+  if (!isset($_SESSION['GetTheStar'])) {
+  	$_SESSION['msg'] = "Get The Star";
+  	header('location: buystar.php');
+  }
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -39,6 +44,7 @@
     <?php  if (isset($_SESSION['username'])) : ?>
     	<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
     	<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
+      <p> <a href="index.php?GetTheStar='1'" style="color: red;">Get The Star</a> </p>
     <?php endif ?>
 </div>
 
