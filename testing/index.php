@@ -10,10 +10,6 @@
   	unset($_SESSION['username']);
   	header("location: login.php");
   }
-  if (!isset($_SESSION['GetTheStar'])) {
-  	$_SESSION['msg'] = "Get The Star";
-  	header('location: buystar.php');
-  }
 
 ?>
 <!DOCTYPE html>

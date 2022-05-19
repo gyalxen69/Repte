@@ -74,6 +74,13 @@ form, .content {
   border-radius: 5px;
 }
 
+a{
+  border-radius: 5px;
+  padding: 4px;
+  color: white;
+  background-color: #5F9EA0;
+}
+
 .error {
   width: 92%;
   margin: 0px auto;
