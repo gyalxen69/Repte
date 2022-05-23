@@ -81,6 +81,10 @@ a{
   background-color: #5F9EA0;
 }
 
+p{
+  font-size: 2rem;
+}
+
 .error {
   width: 92%;
   margin: 0px auto;

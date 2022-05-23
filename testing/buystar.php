@@ -18,7 +18,7 @@
     		<input type="text" name="name" >
     	</div>
     	<div class="input-group">
-    		<button type="submit" class="btn" name="GetTheStar">Get The Star</button>
+    		<button type="submit" class="btn" name="GetTheStar"><a href="final.php">Get The Star</a></button>
     	</div>
     </form>
   </div>

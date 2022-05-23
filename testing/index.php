@@ -38,9 +38,9 @@
 
     <!-- logged in user information -->
     <?php  if (isset($_SESSION['username'])) : ?>
-    	<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
-    	<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
-      <p> <a href="index.php?GetTheStar='1'" style="color: red;">Get The Star</a> </p>
+    	<p style="color: blue;">Welcome <strong style="color: blue;"><?php echo $_SESSION['username']; ?></strong></p>
+    	<p> <a href="index.php?logout='1'" style="color: blue;">logout</a> </p>
+      <p> <a href="buystar.php" style="color: blue;">Get The Star</a> </p>
     <?php endif ?>
 </div>
 
